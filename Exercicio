@@ -1,6 +1,17 @@
-Para o projeto em questão, sendo uma Plataforma Web, com duas equipes, e com suas características técnicas descritas abaixo, usarei Cypress, JUnit, NUnit, Jest e Jenkins justificados a seguir.
+Para o projeto que estamos desenvolvendo, uma Plataforma Web com duas equipes trabalhando simultaneamente, gostaria de destacar a escolha das ferramentas que serão utilizadas, cada uma com suas características técnicas específicas. Para garantir a eficiência dos testes automatizados, optei por incorporar o Cypress, JUnit, NUnit, Jest e Jenkins, e aqui estão os motivos para essas escolhas.
 
-É adequado utilizar Cypress, pois é uma ferramenta de teste automatizado que permite testar a interface do usuário e as integrações com serviços de API em uma única plataforma. Sendo possível simular a interação do usuário com o sistema e verificar se as chamadas de API estão retornando as respostas corretas. 
-Além do Cypress, eu utilizaria também JUnit/NUnit, sendo frameworks de teste para Java e .Net, respectivamente. Esses frameworks me permitiriam criar testes unitários automatizados, organizando e executando testes de forma fácil e eficiente. 
-O framework Jest nos permite realizar testes automatizados em aplicações React, criando testes unitários e de integração, tendo uma cobertura de código e mocking de dados. Com isso, também utilizaria o mesmo.
-Além das ferramentas/frameworks citados acima, utilizaria a ferramenta de integração contínua Jenkins, que permite automatizar a execução dos testes. Sempre que ocorrer uma mudança em código-fonte, a ferramenta pode executar todos os testes de forma automática, dando mais agilidade ao processo.
+O Cypress se destaca como uma ferramenta de teste automatizado que oferece a capacidade de testar tanto a interface do usuário quanto as integrações com serviços de API, tudo em uma única plataforma. Isso nos permite simular as interações do usuário com o sistema, garantindo que as chamadas de API estejam retornando as respostas corretas.
+
+Além disso, para garantir a abrangência dos testes, estou considerando a utilização dos frameworks JUnit e NUnit, destinados a Java e .Net, respectivamente. Esses frameworks são ideais para a criação de testes unitários automatizados, proporcionando uma organização eficiente e uma execução fácil.
+
+No contexto de testes para aplicações React, escolhi o framework Jest. Ele oferece a capacidade de realizar testes automatizados, abrangendo tanto testes unitários quanto de integração. Isso nos permite alcançar uma cobertura abrangente de código, juntamente com a capacidade de simular ambientes de teste usando mocking de dados.
+
+Com o intuito de automatizar a execução dos testes de forma contínua, optei pela integração contínua proporcionada pelo Jenkins. Essa ferramenta é crucial, pois automatiza a execução de todos os testes sempre que ocorre uma mudança no código-fonte. Isso não apenas agiliza o processo, mas também garante que qualquer alteração seja validada automaticamente, proporcionando maior confiabilidade ao projeto.
+
+Essa combinação de ferramentas e frameworks visa garantir a qualidade e eficiência do processo de desenvolvimento, assegurando que as equipes possam trabalhar de forma colaborativa e consistente.
+
+
+
+
+
+
